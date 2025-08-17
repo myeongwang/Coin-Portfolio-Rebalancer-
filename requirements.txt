@@ -1,1 +1,18 @@
-schedule
+#Python 3.10.18
+
+certifi==2025.8.3              # 최신 루트 인증서 제공 (HTTPS 통신 검증용)
+charset-normalizer==3.4.3      # 문자열 인코딩 자동 감지 및 변환
+idna==3.10                     # 국제 도메인 이름(IDN) 지원 (URL 인코딩 관련)
+numpy==2.2.6                   # 수치 계산 및 배열 연산 라이브러리
+pandas==2.3.1                  # 데이터 분석/처리 라이브러리 (DataFrame 등)
+PyJWT==2.10.1                  # JWT(JSON Web Token) 생성 및 검증
+python-dateutil==2.9.0.post0   # 날짜/시간 파싱 및 연산 보조 (datetime 확장)
+pytz==2025.2                   # 시간대(timezone) 데이터베이스
+pyupbit==0.2.34                # 업비트 API 파이썬 라이브러리 (암호화폐 데이터/거래)
+requests==2.32.4               # HTTP 요청 라이브러리 (API 통신용)
+schedule==1.2.2                # 간단한 작업 스케줄러 (특정 시간/주기 실행)
+six==1.17.0                    # 파이썬 2/3 호환성 유틸리티
+tzdata==2025.2                 # 시간대 데이터 (IANA Time Zone Database)
+urllib3==2.5.0                 # 저수준 HTTP 클라이언트 (requests 내부적으로 사용)
+websockets==15.0.1             # 웹소켓 클라이언트/서버 라이브러리
+
